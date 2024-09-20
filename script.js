@@ -32,7 +32,7 @@ var _a;
                     resumeOutputElement.innerHTML = resumeOutput;
                 }
                 else {
-                    console.error('The resume output element is missing. Ensure it exists in the HTML.');
+                    console.error('The resume output element is missing.');
                 }
             };
             // Read the profile picture as a DataURL
@@ -43,6 +43,6 @@ var _a;
         }
     }
     else {
-        console.error('One or more input elements are missing. Please check your HTML structure.');
+        console.error('One or more input elements are missing.');
     }
 });
