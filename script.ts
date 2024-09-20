@@ -48,7 +48,7 @@ document.getElementById('resumeForm')?.addEventListener('submit', function(event
                 if (resumeOutputElement) {
                     resumeOutputElement.innerHTML = resumeOutput;
                 } else {
-                    console.error('The resume output element is missing. Ensure it exists in the HTML.');
+                    console.error('The resume output element is missing.');
                 }
             };
 
@@ -58,6 +58,6 @@ document.getElementById('resumeForm')?.addEventListener('submit', function(event
             console.error('No profile picture was uploaded.');
         }
     } else {
-        console.error('One or more input elements are missing. Please check your HTML structure.');
+        console.error('One or more input elements are missing. ');
     }
 });
